@@ -1,7 +1,8 @@
 ## Original text
+Your personal account `inclding` the selected server or bot will recieve a badge in the active subscription time.
 
-
-## Next text
+## New text
+Your personal account `including` the selected server or bot will recieve a badge in the active subscription time.
 
 
 ### Link to the page this typo was found on
