@@ -1,8 +1,8 @@
 ---
 name: Issue
 about: Create a report to help us improve
-title: "[beta-issue]"
-labels: ''
+title: ''
+labels: bug
 assignees: ''
 
 ---
