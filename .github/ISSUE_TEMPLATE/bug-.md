@@ -8,9 +8,3 @@ assignees: ''
 ---
 
 ## Description
-
-<!-- 
-Tips:
-- Images
-- Steps to re-produce
--->
