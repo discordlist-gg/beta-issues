@@ -1,0 +1,30 @@
+name: Typo
+description: Grammar police
+title: '[typo] '
+assignees:
+  - audn
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: ex. https://beta.discordlist.gg/bot/:id
+    validations:
+      required: true
+   - type: input
+    id: original
+    attributes:
+      label: Original text
+      description: Paste the original text here. Mark the typo with `this syntax`.
+      placeholder: ex. I `ned` a new bike
+    validations:
+      required: true
+    - type: input
+    id: new
+    attributes:
+      label: New
+      description: Paste the new text here. Mark the changed typo with `this syntax`.
+      placeholder: ex. I `need` a new bike
+    validations:
+      required: true
+ 
