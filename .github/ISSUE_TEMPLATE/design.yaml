@@ -1,0 +1,46 @@
+name: Design/UI
+description: Design that can be confused with a bug
+title: '[ui] '
+labels: ['ui']
+assignees:
+  - audn
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: ex. https://beta.discordlist.gg/bot/:id
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 'Please upload images if possible.'
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      description: "Please test on multiple browsers if you're not using Chrome"
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Website data
+      description: Please paste in the website data. This is found in the bug icon bottom right on the website.
+      render: JSON
+  # - type: checkboxes
+  #   id: terms
+  #   attributes:
+  #     label: Code of Conduct
+  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+  #     options:
+  #       - label: I agree to follow this project's Code of Conduct
+  #         required: true
