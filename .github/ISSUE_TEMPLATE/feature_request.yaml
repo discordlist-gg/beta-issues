@@ -1,0 +1,12 @@
+name: New feature
+description: Idea for a new feature
+title: '[feature] '
+labels: ['suggestion']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 'Try to explain the feature as good as you possible can. Upload images if needed.'
+    validations:
+      required: true
