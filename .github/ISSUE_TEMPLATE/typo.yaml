@@ -11,7 +11,7 @@ body:
       placeholder: ex. https://beta.discordlist.gg/bot/:id
     validations:
       required: true
-   - type: input
+  - type: input
     id: original
     attributes:
       label: Original text
@@ -19,7 +19,7 @@ body:
       placeholder: ex. I `ned` a new bike
     validations:
       required: true
-    - type: input
+  - type: input
     id: new
     attributes:
       label: New
