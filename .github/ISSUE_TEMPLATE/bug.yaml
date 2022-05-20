@@ -15,8 +15,7 @@ body:
     id: description
     attributes:
       label: Description
-      placeholder: ''
-      value: ''
+      placeholder: 'Describe the bug here'
     validations:
       required: true
   # - type: dropdown
