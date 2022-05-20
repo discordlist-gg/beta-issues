@@ -15,6 +15,7 @@ body:
     id: description
     attributes:
       label: Description
+      description: "Please upload images if possible."
       placeholder: 'Describe the bug here'
     validations:
       required: true
