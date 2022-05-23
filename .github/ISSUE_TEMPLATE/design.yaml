@@ -30,17 +30,16 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
-    id: logs
+  - type: checkboxes
+    id: terms
     attributes:
-      label: Website data
-      description: Please paste in the website data. This is found in the bug icon bottom right on the website.
-      render: JSON
-  # - type: checkboxes
-  #   id: terms
-  #   attributes:
-  #     label: Code of Conduct
-  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-  #     options:
-  #       - label: I agree to follow this project's Code of Conduct
-  #         required: true
+      label: Notify on issue updates
+      description: Do you want us to ping you on Discord if we require more information from you?
+      options:
+        - label: "Yes"
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord username
+      description: If you checked the box above, what's your username?
+      placeholder: ex. audn#1580
