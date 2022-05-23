@@ -61,7 +61,7 @@ body:
       options:
         - label: Yes
   - type: input
-    id: page
+    id: discordname
     attributes:
       label: Discord username
       description: If you checked the box above, what's your username?
