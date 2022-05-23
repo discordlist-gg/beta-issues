@@ -59,7 +59,7 @@ body:
       label: Notify on issue updates
       description: Do you want us to ping you on Discord if we require more information from you?
       options:
-        - label: Yes
+        - label: "Yes"
   - type: input
     id: discordname
     attributes:
