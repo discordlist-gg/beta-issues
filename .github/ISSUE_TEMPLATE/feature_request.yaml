@@ -10,3 +10,16 @@ body:
       description: 'Try to explain the feature as good as you possible can. Upload images if needed.'
     validations:
       required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Notify on issue updates
+      description: Do you want us to ping you on Discord if we require more information from you?
+      options:
+        - label: "Yes"
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord username
+      description: If you checked the box above, what's your username?
+      placeholder: ex. audn#1580
