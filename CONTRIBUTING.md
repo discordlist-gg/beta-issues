@@ -8,6 +8,7 @@ If you do create one, please include as many details as possible.
 
 Before creating issues:  
 - Do **not** paste a link such as `mycool-domain.com/screen_recording.mov`  to describe/showcase your issue. Videos that you host on your own server are most likely deleted after some time, causing your issue to have an expiration date. You can upload a video normally by dragging an .mp4 file into the markdown field.
+- Attach images instead of adding an external link / downloadable files.
 
 **Failing to follow the rules may result in your issue being closed.**
 
